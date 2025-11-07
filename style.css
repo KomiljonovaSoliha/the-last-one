@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 120px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left h1 {
+    width: 400px;
+}
+
+.left p {
+    width: 497px;
+    font-weight: 400;
+}
+
+.right img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box button {
+    background-color: #4dc0e3;
+    color: white;
+    border: none;
+    padding: 6px;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.firstsection {
+    display: flex;
+    background-color: #EDF7FA;
+    height: 400px;
+}
+
+.halqa {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.textleft,
+.textright {
+    width: 618px;
+    height: 270px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textleft h1,
+.textright h1 {
+    font-size: 25px;
+    width: 374px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textleft p,
+.textright p {
+    margin: 0 auto;
+}
+
+.secondsection {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+
+
+.textright p,
+.textleft p {
+    width: 350px;
+}
+
+.halqa2 h6 {
+
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+
+.out {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.out a {
+    text-decoration: none;
+}
+
+.halqa2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rasm {
+    display: flex;
+    border-bottom: 2px solid #E0E0E0;
+    padding-bottom: 10px;
+}
+
+.rasmtext {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.rasmtext h1 {
+    font-weight: 700;
+    color: #21243D;
+}
+
+.rasmtext p {
+    width: 560px;
+}
+
+.btn {
+    display: flex;
+    color: #8695A4;
+    gap: 25px;
+    padding: 0;
+    align-items: center;
+}
+
+.btn button {
+    width: 62px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #142850;
+    color: white;
+    border: none;
+    font-weight: 900;
+}
+
+.footerlinks {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+    gap: 15px;
+}
+
+
+.logo i {
+    font-size: 50px;
+
+}
+
+.logo {
+    display: flex;
+    gap: 22px;
+}
+ul a:hover{
+color: #FF6464;
+}
+
+
+@media(max-width:993px) {
+    .firstsection {
+        height: 650px;
+        width: 74.5%;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .textleft,
+    .textright {
+        max-width: 100%;
+    }
+
+    .halqa {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .rasmtext p {
+        width: 200px;
+    }
+}
+
+@media (max-width:750px) {
+
+
+
+    .right {
+        width: 200px;
+
+    }
+}
+
+@media (max-width:479px) {
+
+
+    .rasmtext {
+        width: 200px;
+    }
+
+    .rasmtext p {
+        max-width: 100%;
+    }
+
+    .textleft {
+        max-width: 100%;
+        gap: 5px;
+    }
+
+    .textleft h1,
+    .textright h1 {
+        width: 100%;
+    }
+
+    .textleft p,
+    .textright p {
+        width: 100%;
+    }
+}
+
+@media (max-width:690px) {
+    .left p {
+        width: 300px;
+    }
+
+    .halqa {
+        flex-direction: column;
+    }
+
+    .firstsection {
+        height: 630px;
+        padding: 30px;
+    }
+
+    .out {
+        display: none;
+    }
+
+    .rasmtext p {
+        width: 300px;
+    }
+}
+
+@media (max-width:398px) {
+    .box {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    ul a {
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .right img {
+        display: flex;
+    }
+
+    .halqa {
+        gap: 30px;
+    }
+
+    .rasm {
+        margin-left: 0;
+    }
+
+    .halqa2 h6 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .out {
+        margin-bottom: 10px;
+        display: unset;
+        text-align: center;
+    }
+
+    .firstsection {
+        height: 700px;
+        padding: 0;
+    }
+
+    .out a {
+        display: none;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .left p {
+        text-align: center;
+        margin-left: 10px;
+    }
+   .btn button{
+    padding:  0px 10px;
+   }
+
+    .left button {
+        margin-left: 8rem;
+    }
+
+    .firstsection {
+        width: 100%;
+    }
+
+    .textleft,
+    .textright {
+        gap: 10px;
+    }
+
+    .textleft,
+    .textright {
+        width: 100%;
+    }
+
+    .textleft h1,
+    .textright h1 {
+        width: 100%;
+    }
+
+    .textleft p,
+    .textright p {
+        width: 100%;
+
+    }
+
+    .rasm {
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        gap: 10px;
+    }
+
+    .footerlinks p {
+        width: 270px;
+    }
+
+}
+
+@media (max-width:346px) {
+    .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left p {
+        width: 150px;
+        margin: 0;
+    }
+
+    .left h1 {
+        width: 300px;
+    }
+}
+
+
+@media (max-width:765px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .left p {
+        max-width: 380px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left button {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+
+}
